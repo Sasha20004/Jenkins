@@ -1,6 +1,6 @@
 ---      #  начало всех сценариев Ansible
 - name: Configure webservers
-  hosts: 20.203.209.198
+  hosts: all
   tasks:
     - name: install nginx
       apt: name=nginx update_cache=yes
